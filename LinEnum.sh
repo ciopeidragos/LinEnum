@@ -1323,17 +1323,29 @@ call_each()
 {
   header
   debug_info
+  sleep 15
   system_info
+  sleep 15
   user_info
+  sleep 15
   environmental_info
+  sleep 15
   job_info
+  sleep 15
   networking_info
+  sleep 15
   services_info
+  sleep 15
   software_configs
+  sleep 15
   interesting_files
+  sleep 15
   docker_checks
+  sleep 15
   lxc_container_checks
+  sleep 15
   footer
+  sleep 15
 }
 
 while getopts "h:k:r:e:st" option; do
